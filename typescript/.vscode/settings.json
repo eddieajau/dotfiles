@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "rest-client.environmentVariables": {
+    "$shared": {},
+    "Local": {
+      "API_HOST": "http://localhost:3000"
+    },
+    "Dev": {
+      "API_HOST": "http://todo"
+    },
+    "Prod": {}
+  }
+}
