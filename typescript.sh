@@ -37,12 +37,13 @@ sed -i'' "s/PROJECT_NAME_PLACEHOLDER/$PROJECT_NAME/g" package.json
 npm i -D \
   @tsconfig/node22 \
   @types/node \
+  @vitest/coverage-v8 \
   eslint \
   pino-pretty \
   prettier \
   rimraf \
-  tsconfig-paths \
   ts-node \
+  tsconfig-paths \
   typescript \
   typescript-eslint \
   vitest
