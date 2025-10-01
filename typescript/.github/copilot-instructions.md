@@ -70,6 +70,7 @@ Add the following copyright docblock at the start of all \*.ts files (but not ma
 ## Architecture
 
 - Target node.js version is 22
+- Use explicit `.js` extensions for local ESM imports, for example: `import { foo } from './bar.js'`
 
 ## Testing
 
